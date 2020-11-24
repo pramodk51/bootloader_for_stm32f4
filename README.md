@@ -47,7 +47,9 @@ Minimal Nos. of Vector elements in startup file is (90 external + 16 system ). T
 
 # CRC generation
 Use crc.py file to append crc and image size in final bin file.
+
 $ python crc.py app1.bin 
+
 Above command adds crc and size in app1.bin file.
 
 
