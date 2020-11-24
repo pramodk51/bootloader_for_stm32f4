@@ -51,7 +51,6 @@ Use crc.py file to append crc and image size in final bin file.
 
 $ python crc.py app1.bin 
 
-Above command adds crc and size in app1.bin file.
 
 
 To add:
