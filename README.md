@@ -63,3 +63,4 @@ Storing boot counter and image boot status to avoid verification and app selecti
 
 Reference:
 https://interrupt.memfault.com/blog/device-firmware-update-cookbook
+https://microcontrollerslab.com/what-is-interrupt-vector-table/
