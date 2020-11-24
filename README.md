@@ -29,10 +29,10 @@ Odd version images are placed in slot 1. Even version images are placed in slot 
 # Image header content.
 Linker script is modified to store the image header at the start of bin file. Actual Application data starts from  after a certain offset. A header section in linker file whose size is 1K.
 
-![GitHub Logo](/images/header_format.png)
+![GitHub Logo](/images/image_linker.png)
 
                                                                                                                                                                                                                                                                                                                        
-Linker file contains additional HEADER section information.
+Linker file contains additional HEADER section to store headers for images.
 
 ![GitHub Logo](/images/header_format.png)
 
