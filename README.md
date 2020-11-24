@@ -62,4 +62,4 @@ Storing boot counter and image boot status to avoid verification and app selecti
 
 
 Reference:
-https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch
+https://interrupt.memfault.com/blog/device-firmware-update-cookbook
