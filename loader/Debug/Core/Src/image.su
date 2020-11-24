@@ -1,0 +1,3 @@
+image.c:15:20:imageGetHeader	24	static
+image.c:44:5:imageValidate	32	static
+image.c:75:6:imageStart	32	static,ignoring_inline_asm

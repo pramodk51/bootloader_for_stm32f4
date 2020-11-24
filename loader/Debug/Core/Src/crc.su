@@ -1,0 +1,2 @@
+crc.c:11:10:crc32_for_byte	24	static
+crc.c:19:10:crc32	32	static

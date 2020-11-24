@@ -1,0 +1,2 @@
+core_cm4.h:1939:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+boot.c:17:6:loadImage	24	static
