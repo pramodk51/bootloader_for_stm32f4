@@ -1,6 +1,6 @@
 # bootloader_for_stm32f4
 
-A bootloader for stm32f4. It selects the valid and latest(version) application image and boot from it after basic verification. It rollbacks and boots from previous image if the latest image is invalid.
+A bootloader for stm32f4. It selects the valid and latest(version) application image and boot from it after basic verification. It rollbacks and boots from previous image if the latest image is invalid. Can be used to create an OTA update solution.
 
 
 /loader contains bootloader project
@@ -55,7 +55,11 @@ Above command adds crc and size in app1.bin file.
 
 To add:
 Image signing instead of CRC.
+
 Storing boot counter and image boot status to avoid verification and app selection every time.
+
+
+
 
 Reference:
 https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch
