@@ -4,7 +4,9 @@ A bootloader for stm32f4. It selects the valid and latest(version) application i
 
 
 /loader contains bootloader project
-/app1   contains a simple application project
+
+/app1   contains a simple application project 
+
 /app2
 
 
@@ -28,13 +30,13 @@ Linker script is modified to store the image header at the start of bin file. Ac
 
 ![GitHub Logo](/images/header_format.png)
 
-
-# Header MAGIC 
- A pre-known value (here 0xABCD) to add extra validation to image.
                                                                                                                                                                                                                                                                                                                        
 Linker file contains additional HEADER section information.
 
 ![GitHub Logo](/images/header_format.png)
+
+# Header MAGIC 
+A pre-known value (here 0xABCD) to add extra validation to image.
 
 # Vector-Table relocation.
 Vector table for image 1 starts from 0x08020400 and for image 2 form 0x080A0400. Vector table location is the start of FLASH section for STM32.
