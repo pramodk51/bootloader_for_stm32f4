@@ -1,6 +1,6 @@
 # bootloader_for_stm32f4
 
-A bootloader for stm32f4. It selects the valid and latest(version) application image and boot from it after basic verification. It rollbacks and boots from previous image if the latest image is invalid. Can be used to create an OTA update solution.
+A bootloader for stm32f4. It selects the valid and latest(version) application image and boots from it after basic verification. It rollbacks and boots from previous image if the latest image is invalid. Can be used to create an OTA update solution.
 This Project is based on STM32F429ZI Nucleo board.
 
 
